@@ -43,7 +43,7 @@ To run the application locally, follow these steps:
 - Go (version 1.15 or later)
 - Node.js (version 14 or later)
 - PostgreSQL or SQLite (depending on your choice)
-- Git
+- Git & GitHub
 
 ### Backend Setup
 
