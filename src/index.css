@@ -1,0 +1,97 @@
+:root {
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
+  --font-weight: 400;
+
+  --color-scheme: light dark;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+
+  --font-synthesis: none;
+  --text-rendering: optimizeLegibility;
+  --font-smoothing: antialiased;
+
+  --primary-color: #ff4d4d; /* Red color */
+  --secondary-color: #fff;    /* White for text and backgrounds */
+  --border-color: #ccc;       /* Border color */
+  --card-background: rgba(255, 255, 255, 0.95); /* Semi-transparent white for cards */
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight);
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: var(--font-synthesis);
+  text-rendering: var(--text-rendering);
+  -webkit-font-smoothing: var(--font-smoothing);
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: var(--primary-color); /* Red color for headings */
+}
+
+.leaflet-container {
+  height: 90vh;
+  width: 90%;
+  border-radius: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.leaflet-draw {
+  background-color: var(--card-background);
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.leaflet-draw-toolbar-topright {
+  top: 10px;
+  right: 10px;
+}
+
+.leaflet-draw-toolbar li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: var(--primary-color); /* Red background for buttons */
+  color: var(--secondary-color); /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.card {
+  background-color: var(--card-background); /* Card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-control {
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color); /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
