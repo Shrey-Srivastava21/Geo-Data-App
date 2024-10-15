@@ -112,7 +112,7 @@ To deploy the application, you can use platforms like Heroku, DigitalOcean, or A
 
 ## Video Explanation
 
-Watch the assignment explanation video [here](<YOUR_GOOGLE_DRIVE_LINK>).
+Watch the assignment explanation video [here](<https://drive.google.com/file/d/11uzUWhjhUzIP6-d28-2IPJPkpivitbQi/view?usp=sharing>).
 
 ## License
 
